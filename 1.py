@@ -2,7 +2,7 @@ import random
 import requests
 
 def get_weather(city):
-    API_KEY = "your_api_key_here"  # Replace with a real API key
+    API_KEY = "90ce4b66e8f668950d9c932d9bbd96d2"  # Replace with a real API key
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
     response = requests.get(url)
     data = response.json()
